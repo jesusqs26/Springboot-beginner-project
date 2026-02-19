@@ -23,6 +23,5 @@ jobs:
         run: mvn -B test --file pom.xml
 
       - name: Build the application
-        run: 
-          mvn -X clean
+        run: mvn -X clean
           mvn -B package --file pom.xml
